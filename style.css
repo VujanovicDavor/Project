@@ -48,4 +48,9 @@ body {
   
   p {
     font-family: 'Calibri'; 
+    color: black;
+  }
+
+  .Shoes{
+    color: green;
   }
