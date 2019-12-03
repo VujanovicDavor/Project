@@ -51,9 +51,13 @@ body {
   
   p {
     font-family: 'Calibri'; 
-    color: black;
+    color: red;
+    text-align: center;
+    font-size: 5mm;
   }
 
   .Shoes{
     color: green;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
   }
