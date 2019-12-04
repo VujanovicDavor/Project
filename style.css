@@ -53,11 +53,12 @@ body {
     font-family: 'Calibri'; 
     color: black;
     text-align: center;
-    font-size: 5mm;
+    font-size: 7mm;
   }
 
   .Shoes{
     color: green;
     text-align: center;
     text-shadow: 2px 2px 5px black;
+    font-size: 35px;
   }
