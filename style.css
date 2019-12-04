@@ -1,8 +1,5 @@
 body {
-  background-image: url(shoes.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;;
+  background-color: lightgrey;
   }
   
   h1 {
@@ -57,7 +54,7 @@ body {
   }
 
   .Shoes{
-    color: green;
+    color: lightgreen;
     text-align: center;
     text-shadow: 2px 2px 5px black;
     font-size: 35px;
