@@ -62,6 +62,13 @@ body {
     text-shadow: 2px 2px 5px black;
     font-size: 35px;
   }
+
+  .Nike{
+    color: lightgreen;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-size: 35px;
+  }
   
   button
   {
@@ -72,4 +79,19 @@ body {
     text-align: center;
     font-size: 10px;
     cursor: pointer;
+  }
+
+  .Button
+  {
+    background-color: lightgrey;
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  .Button:active
+  {
+    background: blue;
   }
