@@ -23,6 +23,7 @@ body {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    text-align: center;
     list-style-type: none;
     margin: 0;
     width: 200px;
@@ -38,11 +39,13 @@ body {
     color: white;
   }
   
-  li a {
+  li {
     display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    text-align: center;
+    font-size: 6mm;
     border-bottom: 1px solid #555;
   }
   
@@ -58,4 +61,15 @@ body {
     text-align: center;
     text-shadow: 2px 2px 5px black;
     font-size: 35px;
+  }
+  
+  button
+  {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 10px;
+    cursor: pointer;
   }
