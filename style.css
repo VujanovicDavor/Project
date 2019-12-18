@@ -1,5 +1,5 @@
-body {
-  background-color: lightgrey;
+  body {
+    background-color: lightgrey;
   }
   
   h1 {
@@ -12,10 +12,10 @@ body {
   }
   
   h3{
-      color: black;
-      text-align: center;
-      border: 1px solid powderblue;
-      margin: 50px;
+    color: black;
+    text-align: center;
+    border: 1px solid powderblue;
+    margin: 50px;
   }
   
   li a {
