@@ -10,13 +10,13 @@
   h2 {
       color: black; 
       text-align: center;
+      text-decoration: underline;
   }
   
   h3{
     color: black;
     text-align: center;
-    border: 1px solid powderblue;
-    margin: 50px;
+    margin: 55px;
   }
   
   li a {
