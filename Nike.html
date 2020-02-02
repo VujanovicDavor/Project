@@ -6,6 +6,55 @@
     <link rel = "stylesheet" href="style.css">
     <title>Nike</title>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+       p  { font-size: 1.2em; }
+
+       .stylen{
+        position:relative;
+      padding:0;
+      width:370px;
+      display:block;
+      cursor:pointer;
+      overflow:hidden;
+       }
+
+       .content{
+        opacity:0;
+      font-size: 40px;
+      position:absolute;
+      top:0;
+      left:0;
+      color:#3e96d1;
+      background-color:rgba(200,200,200,0.5);
+      width:370px;
+      height:410px;
+      -webkit-transition: all 400ms ease-out;
+      -moz-transition: all 400ms ease-out;
+      -o-transition: all 400ms ease-out;
+      -ms-transition: all 400ms ease-out;
+      transition: all 400ms ease-out;
+      text-align:center;
+       }
+
+       .stylen .content:hover {opacity: 1;}
+       .stylen .content .text{
+         height: 0;
+         opacity: 1;
+         transition-delay: 0s;
+         transition-duration: 0.4s;
+       }
+
+       .stylen .content:hover .text {
+      opacity:1;
+      transform: translateY(250px);
+      -webkit-transform: translateY(250px);
+       }
+    </style>
+
     <div class="topnav">
         <a href= "About.html">About</a>
         <a href= "Nike.html" >Nike</a>
@@ -19,8 +68,42 @@
       
       
     <h1><div class="Shoes">Nike</div></h1>  
-    <img src="https://upload.wikimedia.org/wikipedia/commons/9/94/Old_Nike_logo.jpg" width="104" height="90" alt="Nike"> 
    </head>
 
    <body>
+  
+    <div class = "imp150">
+      <div class="stylen">
+        <img src="https://img01.ztat.net/article/N1/24/2A/1U/EQ/11/N1242A1UE-Q11@10.jpg?imwidth=1800&filter=packshot" width="350" height="400">
+        <div class="content">
+         <div class = "text">Nike REVOLUTION 5   54,95€ / <a href="NikeR5.html">&#10152; </a> </div>
+         </div>
+        </div>
+         </div>
+
+         <div class = "imp150">
+          <div class="stylen">
+            <img src="https://images.nike.com/is/image/DotCom/AJ5900_013?$NIKE_PWP_GRAY$&wid=420&hei=420" width="350" height="400">
+            <div class="content">
+             <div class = "text">Nike Flex Experience RN 8  65€ / <a href="NikeRN8.html">&#10152; </a> </div>
+             </div>
+            </div>
+             </div>
+
+             <div class = "imp150">
+              <div class="stylen">
+                <img src="https://images.nike.com/is/image/DotCom/AQ1289_500?$NIKE_PWP_GRAY$&wid=420&hei=420" width="350" height="400">
+                <div class="content">
+                 <div class = "text">Nike Free RN 5.0  110€ / <a href="NikeRN5.html">&#10152; </a> </div>
+                 </div>
+                </div>
+                 </div> 
+     
+
+
+          
+
+     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
    </body>

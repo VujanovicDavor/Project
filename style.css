@@ -19,6 +19,15 @@
     text-decoration: underline;
     margin: 55px;
   }
+
+  h4{
+    color: black;
+    text-align: center;
+  }
+  h5{
+    color: black;
+    text-align: left;
+  }
   
   li a {
     display: block;
@@ -109,3 +118,23 @@
   * {
     box-sizing: border-box;
   }
+
+.nikeShoe{
+  background-color: white;
+  border: lightgrey;
+  width: 430px;
+  font-size: 19px;
+  text-align: center;
+}
+
+.imp150{
+  float: left;
+  font-size: 20px;
+  padding: 8px;
+}
+
+.imp160{
+  
+  font-size: 20px;
+  padding: 8px;
+}
