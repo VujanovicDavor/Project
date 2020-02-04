@@ -6,6 +6,55 @@
     <link rel = "stylesheet" href="style.css">
     <title>Adidas</title>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style>
+      p  { font-size: 1.2em; }
+
+      .stylen{
+     position:relative;
+     padding:0;
+     width:370px;
+     display:block;
+     cursor:pointer;
+     overflow:hidden;
+      }
+
+      .content{
+     opacity:0;
+     font-size: 40px;
+     position:absolute;
+     top:0;
+     left:0;
+     color:#3e96d1;
+     background-color:rgba(200,200,200,0.5);
+     width:390px;
+     height:410px;
+     -webkit-transition: all 400ms ease-out;
+     -moz-transition: all 400ms ease-out;
+     -o-transition: all 400ms ease-out;
+     -ms-transition: all 400ms ease-out;
+     transition: all 400ms ease-out;
+     text-align:center;
+      }
+
+      .stylen .content:hover {opacity: 1;}
+      .stylen .content .text{
+        height: 0;
+        opacity: 1;
+        transition-delay: 0s;
+        transition-duration: 0.4s;
+      }
+
+      .stylen .content:hover .text {
+     opacity:1;
+     transform: translateY(150px);
+     -webkit-transform: translateY(150px);
+      }
+   </style>
+
     <div class="topnav">
         <a href= "About.html">About</a>
         <a href= "Nike.html" >Nike</a>
@@ -21,5 +70,59 @@
    </head>
 
    <body>
+
+    <div class = "imp150">
+      <div class="stylen">
+        <img src="https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/75af5e5e15294a0eab0bab1900d6fba2_9366/ZX_750_HD_Schuh_Schwarz_FV2874_01_standard.jpg" width="350" height="400">
+          <div class="content">
+            <div class = "text"> Adidas ZX 750 HD   99,95€ / <a href="AdidasZX750.html">&#10152; </a> </div>
+          </div>
+      </div>
+    </div>
+
+    <div class = "imp150">
+      <div class="stylen">
+        <img src="https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/96b0f5707b9e48ca8e99ab0301364f74_9366/NMD_R1_V2_Schuh_Weiss_FV9022_01_standard.jpg" width="350" height="400">
+          <div class="content">
+            <div class = "text"> Adidas NMD_R1 V2  139,95€ / <a href="AdidasNMD.html">&#10152; </a> </div>
+          </div>
+      </div>
+    </div>
+
+    <div class = "imp150">
+      <div class="stylen">
+        <img src="https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/3612ba746e7f45d8a7acab0b00adb269_9366/Ultraboost_20_Schuh_Rot_EG0700_01_standard.jpg" width="350" height="400">
+          <div class="content">
+            <div class = "text"> Adidas ULTRABOOST 20  179,95€ / <a href="AdidasUltra.html">&#10152; </a> </div>
+          </div>
+      </div>
+    </div>
+
+    <div class = "imp150">
+      <div class="stylen">
+        <img src="https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/4ef196ba01274f66a6e8ab5200d80770_9366/Superstar_Schuh_Weiss_FV8270_01_standard.jpg" width="350" height="400">
+          <div class="content">
+            <div class = "text"> Adidas SUPERSTAR  99,95€ / <a href="AdidasSuperstar.html">&#10152; </a> </div>
+          </div>
+      </div>
+    </div>
+
+    <div class = "imp150">
+      <div class="stylen">
+        <img src="https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/da0b42247f2b49f7b69fab0a00a5d9ed_9366/Gazelle_Vintage_Schuh_Grun_EF5577_01_standard.jpg" width="350" height="400">
+          <div class="content">
+            <div class = "text"> Adidas GAZELLE VINTAGE  119,95€ / <a href="AdidasVintage.html">&#10152; </a> </div>
+          </div>
+      </div>
+    </div>
+
+    <div class = "imp150">
+      <div class="stylen">
+        <img src="https://assets.adidas.com/images/w_840,h_840,f_auto,q_auto:sensitive,fl_lossy/e53a29301ac64338aa3dab1b0114178a_9366/Copa_20+_FG_Fussballschuh_Rot_G28741_01_standard.jpg" width="350" height="400">
+          <div class="content">
+            <div class = "text"> Adidas COPA 20+ FUSSBALLSCHUH  249,95€ / <a href="AdidasCOPA.html">&#10152; </a> </div>
+          </div>
+      </div>
+    </div>
 
    </body>
