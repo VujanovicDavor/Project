@@ -7,6 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="register.js"></script>
     
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
@@ -31,5 +32,18 @@
         </ul>
       </div>
     </nav>
+    </head>
+
+  <body>
+    <script src="javaPost.js"></script>
+    
+    <form id="register">
+      User: <input type="text" name="fName" id="fName"><br>
+      Password: <input type="text" name="fPassword" id="fPassword"><br>
+
+      <input type="button" onclick="submitToServer()" value="sumbit">
+
+    </form>
+      
     
   </body>

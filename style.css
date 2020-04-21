@@ -188,3 +188,7 @@
   float: right;
   padding-bottom: 20px;
 }
+
+.navbar{
+  max-height: 70px;
+}
