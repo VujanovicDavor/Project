@@ -7,8 +7,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="data" href="data.json">
-    <script src="java.js"></script>
+    <script src="javaPost.js"></script>
     
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
@@ -29,7 +28,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
-          <li><a href="SingUP.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
           <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
         </ul>
       </div>
@@ -40,15 +39,15 @@
     <br>
     <br>
     <br>
+    <script src="javaPost.js"></script>
     
     <div class ="form">
     <form id="register">
-      <input type="text" name="fName" id="fName" placeholder="Username"><br>  
+      <input type="text" name="fName" id="fName" placeholder="Username"><br>
+      <input type="email" name="fMail" id="fMail" placeholder="EMail"><br>  
       <input type="password" name="fPassword" id="fPassword" placeholder="Password"><br>
 
-      <input type="submit" onclick=Write() value="Login">
-
-      <script>Login(fName, fPassword)</script>
+      <input type="submit" onclick="submitToServer()" value="Login">
 
     </form>
   </div>
