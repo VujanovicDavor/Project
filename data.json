@@ -27,5 +27,57 @@
       "password": "aasdf",
       "id": "8cyQmjx"
     }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Nike Free RN 5.0",
+      "img": "NikeFRN5.jpg",
+      "price": 54.95
+    },
+    {
+      "id": 2,
+      "productName": "Nike Flex",
+      "img": "Nike.jpg",
+      "price": 65
+    },
+    {
+      "id": 3,
+      "productName": "Nike Dowshifter 9",
+      "img": "Gay.jpg",
+      "price": 60
+    }
+  ],
+  "cart": [
+    {
+      "productName": "Nike Free RN 5.0",
+      "price": 54.95,
+      "id": 1
+    },
+    {
+      "productName": "Nike Flex",
+      "price": 65,
+      "id": 2
+    },
+    {
+      "productName": "Nike Dowshifter 9",
+      "price": 60,
+      "id": 3
+    },
+    {
+      "productName": "Nike Free RN 5.0",
+      "price": 54.95,
+      "id": 4
+    },
+    {
+      "productName": "Nike Flex",
+      "price": 65,
+      "id": 5
+    },
+    {
+      "productName": "Nike Dowshifter 9",
+      "price": 60,
+      "id": 6
+    }
   ]
 }

@@ -277,3 +277,19 @@ input[type=text]:focus,[type=password]:focus, [type=email]:focus {
 input[type=text]:placeholder {
   color: #cccccc;
 }
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 330px;
+  margin: auto;
+  font-family: arial;
+  box-sizing: border-box;
+  width: "350"; 
+  height: "400";
+}
+
+.img{
+  width: 30px;
+  height: 400px;
+}
+
