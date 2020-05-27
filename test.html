@@ -1,51 +1,87 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">Shoes</a>
-        </div>
-        <ul class="nav navbar-nav"> 
-          <li class="active"><a href="About.html">About</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Brands <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-          <li><a href= "Hilfiger.html" >Tommy Hilfiger</a></li>
-          <li><a href= "Nike.html" >Nike</a></li>
-          <li><a href= "Adidas.html" >Adidas</a></li>
-          <li><a href= "Puma.html" >Puma</a></li>
-          <li><a href= "Tom_Tailor.html" >Tom Tailor</a></li>
-          <li><a href= "Armani.html" >Armani Exchange</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="SingUP.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-          <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="store.js"></script>
+  <link rel="stylesheet" href="store.css">
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Shoes</a>
       </div>
-    </nav>>  
-  </head>
-  <body>
-    <div class="container"><table class="table table-borderless" id='prods'>
-      <tbody>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="About.html">About</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Brands <span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Hilfiger.html">Tommy Hilfiger</a></li>
+            <li><a href="Nike.html">Nike</a></li>
+            <li><a href="Adidas.html">Adidas</a></li>
+            <li><a href="Puma.html">Puma</a></li>
+            <li><a href="Tom_Tailor.html">Tom Tailor</a></li>
+            <li><a href="Armani.html">Armani Exchange</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="SingUP.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>>
+</head>
 
-      </tbody>
-    </table></div>
-
-    <div id='test'></div>
-    <script src="test.js"></script>
-    <script src="Java.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
-  
-  </html>
+</header>
+<section class="container content-section">
+  <div class="shop-items">
+    <div class="shop-item">
+      <span class="shop-item-title">Nike Flex</span>
+      <img class="shop-item-image" src="Nike.jpg">
+      <div class="shop-item-details">
+        <span class="shop-item-price">65€</span>
+        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+    <div class="shop-item">
+      <span class="shop-item-title">Nike Free RN 5.0</span>
+      <img class="shop-item-image" src="Gay.jpg">
+      <div class="shop-item-details">
+        <span class="shop-item-price">54.95€</span>
+        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+    <div class="shop-item">
+      <span class="shop-item-title">Nike Dowshifter 9</span>
+      <img class="shop-item-image" src="NikeFRN5.jpg">
+      <div class="shop-item-details">
+        <span class="shop-item-price">60€</span>
+        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+      </div>
+    </div>
+</section>
+
+<section class="container content-section">
+  <h2 class="section-header">CART</h2>
+  <div class="cart-row">
+    <span class="cart-item cart-header cart-column">ITEM</span>
+    <span class="cart-price cart-header cart-column">PRICE</span>
+    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+  </div>
+  <div class="cart-items">
+  </div>
+  <div class="cart-total">
+    <strong class="cart-total-title">Total</strong>
+    <span class="cart-total-price">€0</span>
+  </div>
+  <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+</section>
+</body>
+
+</html>

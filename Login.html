@@ -1,58 +1,55 @@
 <!DOCTYPE html>
 <html lang="de">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="data" href="data.json">
-    <script src="java.js"></script>
-    
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">WebSiteName</a>
-        </div>
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="About.html">About</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Brands <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-          <li><a href= "Hilfiger.html" >Tommy Hilfiger</a></li>
-          <li><a href= "Adidas.html" >Adidas</a></li>
-          <li><a href= "Puma.html" >Puma</a></li>
-          <li><a href= "Tom_Tailor.html" >Tom Tailor</a></li>
-          <li><a href= "Armani.html" >Armani Exchange</a></li>
-            </ul>
-          </li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
-          <li><a href="SingUP.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-          <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-        </ul>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="data" href="data.json">
+  <script src="register.js"></script>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">WebSiteName</a>
       </div>
-    </nav>
-    </head>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="About.html">About</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Brands <span
+              class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Hilfiger.html">Tommy Hilfiger</a></li>
+            <li><a href="Adidas.html">Adidas</a></li>
+            <li><a href="Puma.html">Puma</a></li>
+            <li><a href="Tom_Tailor.html">Tom Tailor</a></li>
+            <li><a href="Armani.html">Armani Exchange</a></li>
+          </ul>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+        <li><a href="SingUP.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </nav>
+</head>
 
-  <body>
-    <br>
-    <br>
-    <br>
-    
-    <div class ="form">
+<body>
+  <br>
+  <br>
+  <br>
+
+  <div class="form">
     <form id="register">
-      <input type="text" name="fName" id="fName" placeholder="Username"><br>  
-      <input type="password" name="fPassword" id="fPassword" placeholder="Password"><br>
-
-      <input type="submit" onclick=Write() value="Login">
-
-
+      <label for="username">Username</label><br>
+      <input type="text" id='username'><br>
+      <label for="password">Password</label><br>
+      <input type="password" id='password'><br>
+      <input type="button" onclick="login()" value="Login">
     </form>
   </div>
-
-    
-    
-    
-  </body>
+</body>

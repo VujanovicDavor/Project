@@ -4,7 +4,8 @@ function add() {
     var products = document.getElementById('prods').getElementsByTagName('tbody')[0];
     var data;
     request.open('GET', 'http://localhost:3000/products', true);
-    request.onload = function () {
+    request.onload = function () 
+    {
         if (request.status < 200 || request.status > 400) { console.log("error: connection failed"); return; }
         var card;
         var trow;
@@ -41,7 +42,7 @@ function add() {
             prize.textContent = data[i].price + ",-";
 
             var button = document.createElement('button');
-            button.setAttribute('class', 'btn btn-primary');
+            button.setAttribute('class', 'btn-add');
             button.textContent = "Add To Cart";
             button.onclick = searchInShopCart(data, i);
             button.id = data[i].id;
@@ -52,18 +53,10 @@ function add() {
             cardBody.appendChild(prdctname);
             cardBody.appendChild(prize);
             cardBody.appendChild(button);
-
-            if (counter === 3) {
-                counter = 0;
-            }
         }
     }
     request.send();
 }
-
-
-
-
 
 function searchInShopCart(data, id) {
 
